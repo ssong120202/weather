@@ -1,0 +1,38 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+    </style>
+
+    <!-- LIGHT THEME -->
+    <style name="LightTheme" parent="AppTheme">
+        <item name="android:textColorPrimary">@color/textLabels</item>
+        <item name="android:textColorHint">@color/textLabels</item>
+        <item name="android:editTextColor">@color/textLabels</item>
+        <!--  this effects the TextInputEditText  -->
+        <item name="colorControlActivated">@color/appHighlight</item>
+    </style>
+
+
+    <style name="CellText">
+        <item name="android:textColor">@color/textLabels</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/open_sans_normal</item>
+    </style>
+
+    <style name="CellTitleText">
+        <item name="android:textColor">@color/textLabels</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/open_sans_bold</item>
+    </style>
+
+    <style name="ClickableCardView">
+        <item name="cardElevation">@dimen/clickable_card_elevation</item>
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="android:clipChildren">true</item>
+    </style>
+</resources>

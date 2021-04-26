@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="clickable_card_elevation">12dp</dimen>
+    <dimen name="card_corner_radius">14dp</dimen>
+    <dimen name="card_margin">15dp</dimen>
+</resources>
